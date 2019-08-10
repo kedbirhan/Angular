@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-post-create',
     templateUrl: './post-create.component.html',
+    styleUrls: ["./post-create.component.css"]
+
 })  //this is a decorator that tells angular the class below is a component
 export class PostCreateComponent {
     newPost='';
